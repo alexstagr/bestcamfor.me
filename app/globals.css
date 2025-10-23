@@ -1,15 +1,14 @@
 @import "tailwindcss";
+@import "tailwindcss-animated";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-
 @theme {
-  --color-primary:#004CC9;
+  --color-primary: #D14400;
 }
-
 
 @theme inline {
   --color-background: var(--background);
