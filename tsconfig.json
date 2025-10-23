@@ -22,8 +22,13 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["components/*"],
+      "@/overlays/*": ["components/overlays/*"],
+      "@/sidebars/*": ["components/sidebars/*"],
+      "@/filters/*": ["components/filters/*"],
+      "@/cards/*": ["components/cards/*"],
       "@/partials/*": ["partials/*"],
-      "@/models/*": ["models/*"]
+      "@/models/*": ["models/*"],
+      "@/hooks/*": ["hooks/*"]
     }
   },
   "include": [

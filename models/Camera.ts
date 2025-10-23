@@ -4,7 +4,7 @@ export interface Camera {
   type: "Mirrorless" | "DSLR" | "Compact" | "Bridge";
   released: string;
 
-  greatFor: string[];
+  greatfor: string[];
 
   body: {
     weight_g: number;

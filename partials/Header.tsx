@@ -2,7 +2,7 @@ import Link from "next/link";
 import HeaderLink from "../components/HeaderLink";
 function Header() {
   return (
-    <header className="flex items-center w-full py-3 px-4 sm:px-10 min-h-[75px] bg-white tracking-wide sticky top-0 z-50 [box-shadow:rgba(0,0,0,0.1)_-4px_9px_25px_-6px]">
+    <header className="flex items-center w-full z-100 py-3 px-4 sm:px-10 min-h-[75px] bg-white tracking-wide sticky top-0 z-50 [box-shadow:rgba(0,0,0,0.1)_-4px_9px_25px_-6px]">
       <div className="relative w-full">
         <div className="max-w-screen-xl w-full mx-auto flex flex-wrap items-center gap-4">
           <a href="javascript:void(0)" className="max-sm:hidden">

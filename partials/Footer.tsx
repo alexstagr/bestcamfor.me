@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Facebook, Linkedin, Instagram, X } from "../components/SocialVectors"
 function Footer() {
     return (
-        <footer className="tracking-wide bg-white px-8 sm:px-12 pt-12 pb-6">
+        <footer className="tracking-wide bg-white px-8 w-full sm:px-12 pt-12 pb-6 absolute z-100">
             <div className="grid min-[1200px]:grid-cols-3 gap-12 xl:gap-16">
                 <div className="min-[1200px]:max-w-sm max-w-lg w-full">
                     <Link href="javascript:void(0)">

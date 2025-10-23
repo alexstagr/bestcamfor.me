@@ -5,7 +5,6 @@ import Content from "../components/Content";
 import HeroSection from "./sections/HeroSection";
 import FaqsSection from "./sections/FaqsSection";
 
-
 export default function Home() {
   return (
     <>
