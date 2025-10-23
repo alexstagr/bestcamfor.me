@@ -4,7 +4,7 @@ import Link from "next/link"
 function HeroSection() {
     return (
 
-        <div className="px-6 sm:px-10 py-12">
+        <div className="px-6 sm:px-10 py-12 animate-fade-up">
             <div className="max-w-screen-xl mx-auto">
                 <div className="grid lg:grid-cols-2 justify-center items-center gap-x-12 gap-y-16">
                     <div>

@@ -1,17 +1,21 @@
-import Content from "./components/Content";
+//components
+import Content from "../components/Content";
 
-import Header from "./partials/Header";
-import Footer from "./partials/Footer";
+// sections
+import HeroSection from "./sections/HeroSection";
+import FaqsSection from "./sections/FaqsSection";
 
 
 export default function Home() {
   return (
     <>
-      <Header />
       <Content>
-        <h1>I am Content</h1>
+        <HeroSection />
       </Content>
-      <Footer />
+
+      <Content>
+        <FaqsSection />
+      </Content>
     </>
   );
 }
