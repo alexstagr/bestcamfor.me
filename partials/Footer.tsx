@@ -53,16 +53,16 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="max-lg:min-w-[140px]">
-                        <h4 className="text-slate-900 font-semibold text-base relative">Platforms</h4>
+                        <h4 className="text-slate-900 font-semibold text-base relative">Useful Links</h4>
                         <ul className="space-y-4 mt-6">
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Hubspot</a>
+                                <a href="https://dofsimulator.net/en" className="hover:text-slate-900 text-slate-600 text-sm font-normal">DOF Simulator</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Integration Services</a>
+                                <a href="https://cropfactorcalculator.com" className="hover:text-slate-900 text-slate-600 text-sm font-normal">CropFactor Calculator</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Marketing Glossar</a>
+                                <a href="https://petapixel.com/types-of-camera-lenses/" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Lenses Types</a>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">UIPath</a>
@@ -70,43 +70,40 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="max-lg:min-w-[140px]">
-                        <h4 className="text-slate-900 font-semibold text-base relative">Company</h4>
+                        <h4 className="text-slate-900 font-semibold text-base relative">Brands</h4>
                         <ul className="space-y-4 mt-6">
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">About us</a>
+                                <a href="https://www.nikon.com/" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Nikon</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Careers</a>
+                                <a href="https://global.canon/en/index.html" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Canon</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Blog</a>
+                                <a href="https://www.sony.com/en/" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Sony</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Portfolio</a>
+                                <a href="https://global.fujifilm.com/en" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Fujifilm</a>
                             </li>
-                            <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Events</a>
-                            </li>
+                           
                         </ul>
                     </div>
                     <div className="max-lg:min-w-[140px]">
-                        <h4 className="text-slate-900 font-semibold text-base relative">Useful Links</h4>
+                        <h4 className="text-slate-900 font-semibold text-base relative">Softwares</h4>
                         <ul className="space-y-4 mt-6">
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">FAQ</a>
+                                <a href="https://www.adobe.com/" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Adobe</a>
+                            </li>
+                             <li>
+                                <a href="https://affinity.serif.com/en-gb/photo/" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Afinity Photo</a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.captureone.com/en" className="hover:text-slate-900 text-slate-600 text-sm font-normal">CaptureOne</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Partners</a>
+                                <a href="https://www.polarr.com" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Polarr</a>
                             </li>
-                            <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Sitemap</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Contact</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" className="hover:text-slate-900 text-slate-600 text-sm font-normal">News</a>
-                            </li>
+                
                         </ul>
                     </div>
                 </div>
