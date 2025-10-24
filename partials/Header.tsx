@@ -1,24 +1,19 @@
 import Link from "next/link";
 import HeaderLink from "../components/HeaderLink";
+
+import menu from "@/menu";
+
 function Header() {
   return (
     <header className="flex items-center w-full z-100 py-3 px-4 sm:px-10 min-h-[75px] bg-white tracking-wide sticky top-0 z-50 [box-shadow:rgba(0,0,0,0.1)_-4px_9px_25px_-6px]">
       <div className="relative w-full">
         <div className="max-w-screen-xl w-full mx-auto flex flex-wrap items-center gap-4">
-          <a href="javascript:void(0)" className="max-sm:hidden">
-            <img
-              src="https://readymadeui.com/readymadeui.svg"
-              alt="logo"
-              className="w-36"
-            />
-          </a>
-          <a href="javascript:void(0)" className="hidden max-sm:block">
-            <img
-              src="https://readymadeui.com/readymadeui-short.svg"
-              alt="logo"
-              className="w-9"
-            />
-          </a>
+          <Link href="/" className="max-sm:hidden">
+            <img src="/logo.svg" alt="logo" className="w-50" />
+          </Link>
+          <Link href="/" className="hidden max-sm:block">
+            <img src="/logo.svg" alt="logo" className="w-9" />
+          </Link>
           <div
             id="collapseMenu"
             className="max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50"
@@ -44,9 +39,13 @@ function Header() {
             </button>
 
             <ul className="lg:flex lg:ml-10 lg:gap-x-6 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
-              <HeaderLink text="Home" href="/" />
-              <HeaderLink text="About" href="/about" />
-              <HeaderLink text="Contact" href="/contact" />
+              
+              {
+                menu.map((item) => {
+                  return <HeaderLink text={item.text} href={item.href}/>
+                })
+              }
+             
             </ul>
           </div>
           <div className="flex ml-auto">

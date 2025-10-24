@@ -1,9 +1,13 @@
 import Link from "next/link"
 
-import { Facebook, Linkedin, Instagram, X } from "../components/SocialVectors"
+import { Facebook, Linkedin, Instagram, X } from "@/components/SocialVectors"
+
+import menu from "@/menu"
+
+
 function Footer() {
     return (
-        <footer className="tracking-wide bg-white px-8 w-full sm:px-12 pt-12 pb-6 absolute z-100">
+        <footer className="tracking-wide bg-white px-8 w-full sm:px-12 pt-12 pb-6 absolute z-100 border-2 border-t-primary">
             <div className="grid min-[1200px]:grid-cols-3 gap-12 xl:gap-16">
                 <div className="min-[1200px]:max-w-sm max-w-lg w-full">
                     <Link href="javascript:void(0)">
@@ -39,17 +43,13 @@ function Footer() {
                     <div className="max-lg:min-w-[140px]">
                         <h4 className="text-slate-900 font-semibold text-base relative">Menu</h4>
                         <ul className="mt-6 space-y-4">
-                            <li>
-                                <Link href="/" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Home</Link>
+                            {menu.map((item) => {
+                                return <li>
+                                <Link href={item.href} className="hover:text-slate-900 text-slate-600 text-sm font-normal">{item.text}</Link>
                             </li>
+                            })}
 
-                            <li>
-                                <Link href="/about" className="hover:text-slate-900 text-slate-600 text-sm font-normal">About</Link>
-                            </li>
-
-                            <li>
-                                <Link href="/contact" className="hover:text-slate-900 text-slate-600 text-sm font-normal">Contact</Link>
-                            </li>
+                         
                         </ul>
                     </div>
                     <div className="max-lg:min-w-[140px]">
