@@ -1,6 +1,5 @@
 //components
 import Content from "@/components/Content";
-
 import PostCard from "@/cards/PostCard";
 
 

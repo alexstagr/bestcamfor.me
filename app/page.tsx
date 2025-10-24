@@ -8,11 +8,11 @@ import FaqsSection from "./sections/FaqsSection";
 export default function Home() {
   return (
     <>
-      <Content>
+      <Content bg="bg-red-200">
         <HeroSection />
       </Content>
 
-      <Content>
+      <Content bg="bg-blue-200">
         <FaqsSection />
       </Content>
     </>
