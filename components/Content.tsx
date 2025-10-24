@@ -2,15 +2,18 @@ import { ReactNode } from "react";
 
 interface ContentProps {
   children?: ReactNode;
+  bg?: String;
 }
 
+function Content({ children, bg }: ContentProps) {
 
-function Content({ children }: ContentProps) {
+  const bgStyle = bg ?? "bg-gray-600"
+
   return (
-   
-      <main className="flex min-h-screen items-center justify-center bg-gradient-to-tl from-orange-50 via-sky-50 to-orange-200 font-sans">
-        {children}
-      </main>
+
+    <main className={`flex min-h-screen ${bgStyle} items-center justify-center font-sans`}>
+      {children}
+    </main>
   );
 }
 
